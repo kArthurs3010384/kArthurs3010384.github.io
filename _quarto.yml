@@ -1,0 +1,29 @@
+project:
+  type: book
+  output-dir: docs
+  preview:
+    browser: true
+    navigate: true
+  render: 
+    - "*.qmd"
+
+book:
+  title: "aula"
+  author: "Arthur Ramos Pereira"
+  date: "23/04/2024"
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - summary.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreprt
+
+
+
